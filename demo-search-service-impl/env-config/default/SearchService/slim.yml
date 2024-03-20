@@ -1,0 +1,3 @@
+annotationClass: com.ainosoft.search.service.core.SearchService
+modules: 
+- com.ainosoft.search.service.module.SearchServiceSlimModule

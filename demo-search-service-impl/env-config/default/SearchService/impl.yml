@@ -1,0 +1,5 @@
+annotationClass: com.ainosoft.search.service.core.SearchService
+modules:
+  - com.ainosoft.search.service.injection.SearchServiceModule
+  - org.appops.logging.guice.DefaultLoggerModule
+  - org.appops.entitystore.injection.EntityStoreModule
