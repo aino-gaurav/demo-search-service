@@ -1,4 +1,4 @@
-package com.ainosoft.search.service.core;
+package org.appops.search.service.core;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

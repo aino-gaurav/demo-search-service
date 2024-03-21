@@ -1,12 +1,11 @@
-package com.ainosoft.search.service.injection;
+package org.appops.search.service.injection;
 
 import org.appops.core.annotation.ImplModule;
+import org.appops.library.service.LibraryApi;
+import org.appops.search.service.SearchApi;
+import org.appops.search.service.core.SearchService;
+import org.appops.search.service.impl.SearchApiImpl;
 import org.appops.service.injection.ServiceModule;
-
-import com.ainosoft.library.service.LibraryApi;
-import com.ainosoft.search.service.SearchApi;
-import com.ainosoft.search.service.core.SearchService;
-import com.ainosoft.search.service.impl.SearchApiImpl;
 
 @ImplModule(serviceName = SearchService.class)
 public class SearchServiceModule extends ServiceModule {

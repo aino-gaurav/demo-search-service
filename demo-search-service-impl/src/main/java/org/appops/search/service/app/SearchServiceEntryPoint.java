@@ -1,4 +1,4 @@
-package com.ainosoft.search.service.app;
+package org.appops.search.service.app;
 
 import org.appops.core.ServiceException;
 import org.appops.service.entrypoint.ServiceEntryPoint;

@@ -1,10 +1,9 @@
-package com.ainosoft.search.service.module;
+package org.appops.search.service.module;
 
 import org.appops.core.annotation.SlimModule;
+import org.appops.search.service.SearchApi;
+import org.appops.search.service.core.SearchService;
 import org.appops.slim.base.injection.ServiceSlimModule;
-
-import com.ainosoft.search.service.SearchApi;
-import com.ainosoft.search.service.core.SearchService;
 
 @SlimModule(serviceName = SearchService.class)
 public class SearchServiceSlimModule extends ServiceSlimModule {

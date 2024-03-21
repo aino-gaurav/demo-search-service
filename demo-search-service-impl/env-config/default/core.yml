@@ -1,9 +1,9 @@
 serviceName: "SearchService"
 webappDirectory: "src/main/webapp/"
 gatewayUrl: "http://localhost:8080"
-annotationClass: "com.ainosoft.search.service.core.SearchService"
+annotationClass: "org.appops.search.service.core.SearchService"
 executionMode: "SERVICE"
-packageToScan: "com.ainosoft"
+packageToScan: "org.appops"
 webConfig:
   ip: "http://localhost"
   port: "9001"

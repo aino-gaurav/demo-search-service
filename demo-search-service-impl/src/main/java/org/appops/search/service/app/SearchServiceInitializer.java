@@ -1,13 +1,13 @@
-package com.ainosoft.search.service.app;
+package org.appops.search.service.app;
 
 import java.lang.annotation.Annotation;
 
 import org.appops.core.deployment.ServiceConfiguration;
+import org.appops.search.service.core.SearchService;
 import org.appops.service.ServiceInitializer;
 import org.appops.service.generator.ServiceMetaGenerator;
 import org.appops.slim.base.api.ServiceMetaManager;
 
-import com.ainosoft.search.service.core.SearchService;
 import com.google.inject.Inject;
 import com.google.inject.Provider;
 
